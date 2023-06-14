@@ -44,7 +44,7 @@
               <?php 
                 $delUrl =   "includes/role_process.php?process_type=role_delete";
               ?>
-              <table id="dataTable" class="table table-bordered table-striped table-hover">
+              <table id="example1" class="table table-bordered table-striped table-hover">
                 <thead>
                   <tr>
                     <th>Role Name</th>

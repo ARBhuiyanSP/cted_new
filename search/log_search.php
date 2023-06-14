@@ -11,7 +11,7 @@
 
     <div class="card-body">
         <form class="form-horizontal" action="" id="warehouse_stock_search_form" method="GET">
-            <div class="table-responsive">          
+                    
                 <table class="table table-borderless search-table">
                     <tbody>
                         <tr>  
@@ -39,7 +39,12 @@
 							<td>
                                 <div class="form-group">
                                     <label for="todate">To Date</label>
-                                    <input type="text" class="form-control" id="to_date" name="to_date" value="<?php if(isset($_GET['to_date'])){ echo $_GET['to_date']; } ?>" autocomplete="off" required >
+									<div class="input-group date" id="reservationdate" data-target-input="nearest">
+										<input type="text" name="to_date" class="form-control datetimepicker-input" data-target="#reservationdate" data-toggle="datetimepicker"/>
+										<div class="input-group-append" >
+											<div class="input-group-text"><i class="fa fa-calendar"></i></div>
+										</div>
+									</div>
                                 </div>
                             </td>
 							
@@ -52,7 +57,7 @@
                         </tr>
                     </tbody>
                 </table>
-            </div>
+            
         </form>
     </div>
 </div>

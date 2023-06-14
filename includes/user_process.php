@@ -35,7 +35,8 @@
    
 
     $_SESSION['success']    =   "Process have been successfully done.";
-
+	header("location: user-list.php");
+		exit();
 		
 
 }
