@@ -84,8 +84,9 @@ if(isset($_GET['submit'])){
 								$resultUser = mysqli_query($conn, $sqlUser);
 								$rowUser=mysqli_fetch_array($resultUser);
 							 ?>
-							<img src="images/logo-wide.png" height="50px;"/><br>
+							<img src="images/logoMenu.png" height="30px;"/><br>
 							<span>User Log History</span><br>
+							<span>CTED CHATTOGRAM</span><br>
 							<span>User : <?php echo $rowUser['first_name']; ?> <?php echo $rowUser['last_name']; ?></span><br>
 							Till  <span class="dtext"><?php echo date("jS F Y", strtotime($date));?> </span><br>
 						</p>
@@ -113,10 +114,6 @@ if(isset($_GET['submit'])){
 					<?php } ?>
 					</tbody>
 				</table>
-				<center><div class="row">
-					<div class="col-sm-6"></br></br>--------------------</br>Receiver Signature</div>
-					<div class="col-sm-6"></br></br>--------------------</br>Authorised Signature</div>
-				</div></center></br>
 				<div class="row">
 					<div class="col-sm-12" style="border:1px solid gray;border-radius:5px;padding:10px;color:#f26522;">
 						<center><h5>Notice***</br><span style="font-size:14px;color:#000000;">Please Check Everything Before Signature</span></h5></center>

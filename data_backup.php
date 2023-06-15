@@ -14,12 +14,12 @@ if(!check_permission('data-backup')){
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0"> 88 Innovations Ltd <small>- Dashboard</small></h1>
+            <h1>CTED Chattogram <small> - Data Backup</small></h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="dashboard.php">Dashboard</a></li>
-              <li class="breadcrumb-item active">Sample Page</li>
+              <li class="breadcrumb-item active">Data Backup</li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
@@ -34,7 +34,7 @@ if(!check_permission('data-backup')){
           <div class="col-md-12">
             <div class="card">
               <div class="card-header">
-                <h5 class="card-title">Content Title</h5>
+                <h5 class="card-title">Database Backup</h5>
               </div>
               <!-- /.card-header -->
               <div class="card-body">
