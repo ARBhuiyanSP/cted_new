@@ -14,11 +14,11 @@
 		<button class="btn btn-info linktext" onclick="window.location.href='categorywise_stock_report.php';"> Categorywise Stock Report </button>
 		<button class="btn btn-info linktext" onclick="window.location.href='material_wise_stock_report.php';"> Materialwise Stock Report </button>
 		<!-- <button class="btn btn-info linktext" onclick="window.location.href='typewise_stock_report.php';"> Typeywise Stock Report </button>
-		<?php if($_SESSION['logged']['user_type'] !== 'whm') {?>
+		
 		<button class="btn btn-info linktext" onclick="window.location.href='total_stock_report.php';"> Total Stock Report</button>
 		<button class="btn btn-info linktext" onclick="window.location.href='warehouse_stock_report.php';"> Warehouse Stock Report </button>
-		<button class="btn btn-info linktext" onclick="window.location.href='warehouse_categorywise_stock_report.php';"> Warehouse Categorywise Stock Report </button>
-		<?php } ?> -->
+		<button class="btn btn-info linktext" onclick="window.location.href='warehouse_categorywise_stock_report.php';"> Warehouse Categorywise Stock Report </button> -->
+		 
 	</div>
 
     <div class="card-body">
@@ -30,7 +30,12 @@
 							<td>
                                 <div class="form-group">
                                     <label for="todate">To Date</label>
-                                    <input type="text" class="form-control" id="to_date" name="to_date" value="<?php if(isset($_GET['to_date'])){ echo $_GET['to_date']; } ?>" autocomplete="off" required >
+                                    <div class="input-group date" id="reservationdate" data-target-input="nearest">
+										<input type="text" name="to_date" class="form-control datetimepicker-input" data-target="#reservationdate" data-toggle="datetimepicker"/>
+										<div class="input-group-append" >
+											<div class="input-group-text"><i class="fa fa-calendar"></i></div>
+										</div>
+									</div>
                                 </div>
                             </td>
 							

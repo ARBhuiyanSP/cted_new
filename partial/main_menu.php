@@ -17,7 +17,6 @@
 			<li><a href="role-list.php" class="dropdown-item"> Role</a></li>
 			<li><a href="user-list.php" class="dropdown-item"> Users</a></li>
 			<li><a href="data_backup.php" class="dropdown-item"> Data Backup</a></li>
-			<li><a href="log-history.php" class="dropdown-item"> Log History</a></li>
 		</ul>
 	</li>
 	<li class="nav-item dropdown">
@@ -37,6 +36,7 @@
 	<li class="nav-item dropdown">
 		<a id="dropdownSubMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle"><i class="nav-icon fas fa-file"></i> Reports</a>
 		<ul aria-labelledby="dropdownSubMenu1" class="dropdown-menu border-0 shadow">
+			<li><a href="log-history.php" class="dropdown-item"> Log History</a></li>
 			<li><a href="stock_report.php" class="dropdown-item"> Stock Reports</a></li>
 			<li><a href="movement_report.php" class="dropdown-item"> Movement Reports</a></li>
 			<li><a href="equipments-history.php" class="dropdown-item"> Equipments History</a></li>
