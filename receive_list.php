@@ -1,7 +1,10 @@
 <?php include('dashboard_top_menu_header.php'); ?>
   <!-- /.navbar -->
 
-
+<?php if(!check_permission('material-receive-list')){ 
+        include("404.php");
+        exit();
+ } ?>
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
